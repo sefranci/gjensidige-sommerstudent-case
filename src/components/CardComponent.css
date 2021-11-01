@@ -1,0 +1,111 @@
+.card-outer-container {
+  display: grid;
+  text-align: center;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  background: #0075be;
+  padding: 7px;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.7);
+  min-width: 200px;
+}
+
+.card-inner-container {
+  display: grid;
+  text-align: center;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 16px;
+  padding: 10px;
+  background-image: url("../assets/brushed-alum-dark.png");
+  background-color: #fcdd47;
+}
+
+.image-container {
+  background-color: #ffe53b;
+  border-radius: 12px;
+  padding: 2px;
+  box-shadow: 4px 4px 3px 3px rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.image img {
+  width: 50%;
+}
+
+.image-container p {
+  font-size: 20px;
+}
+
+/* Pokemon type colors */
+
+.normal {
+  background-color: #a8a878;
+}
+
+.fire {
+  background-color: #f08030;
+}
+
+.water {
+  background-color: #6890f0;
+}
+
+.electric {
+  background-color: #f8d030;
+}
+
+.grass {
+  background-color: #78c850;
+}
+
+.ice {
+  background-color: #98d8d8;
+}
+
+.ground {
+  background-color: #e0c068;
+}
+
+.flying {
+  background-color: #a890f0;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.rock {
+  background-color: #b8a038;
+}
+
+.fighting {
+  background-color: #c03028;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.psychic {
+  background-color: #f85888;
+}
+
+.bug {
+  background-color: #a8b820;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.steel {
+  background-color: #b8b8d0;
+}
+
+.dragon {
+  background-color: #7038f8;
+}

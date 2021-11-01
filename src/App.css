@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div-container {
+  text-align: center;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-image: url("./assets/pokemon-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.card {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 1068px) {
+  .card {
+    width: 90vw;
+  }
+}
+
+.btn-form {
+  margin: 5px;
+  transition-duration: 0.2s;
+  background-color: white;
+}
+
+.btn-form:hover {
+  background-color: #0075be;
+  color: white;
+}
